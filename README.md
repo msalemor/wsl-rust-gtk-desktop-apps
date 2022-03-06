@@ -7,7 +7,7 @@ The content of this repo is based on the following tutorial by Brian Floersch:
 
 https://blog.sb1.io/getting-started-with-rust-and-gtk/
 
-> **Note:**: as of the writing of this document, the intructions on this document were not working compiling for me. I have sinced debugged the code and got it running with the latest version of Rust and crates.
+> **Note:**: as of the writing of this document, the intructions on this document were not compiling for me. I have sinced debugged the code and got it running with the latest version of Rust and crates.
 
 ## Objective
 
