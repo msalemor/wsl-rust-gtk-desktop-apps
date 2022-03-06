@@ -38,11 +38,12 @@ From Terminal open Ubuntu and:
   
 ## Basic app
 
-### Create a cargo package
+### Create a cargo package and open it in VS Code
 
 ```bash
 cargo new first_desktop_app
 cd gui_app
+code .
 ```
 
 ### Edit the ```cargo.toml```
@@ -83,3 +84,7 @@ fn main() {
     app.run();
 }
 ```
+
+## Run the app
+
+- From the VS Code Terminal type: ```cargo run```
