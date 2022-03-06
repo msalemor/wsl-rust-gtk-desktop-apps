@@ -8,7 +8,7 @@ Updated: 2022-03-06 11:00 pm
   - https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
 
 > Note: install gedit in WSL2 (```sudo apt install gedit -y```) and <br/>
-> make sure you can see it (```gedit ~/.profile```) on the Windoes 11 desktop
+> make sure you can open a test file using gedit (i.e. ```gedit ~/.profile```) on the Windoes 11 desktop 
 
 ## Windows 11 development tools
 
@@ -29,6 +29,8 @@ From Terminal open Ubuntu and:
 > https://www.rust-lang.org/tools/install <br/>
 > Note: <br/>
 > As of the writing of this repo Rust Version 1.56.0 did not compile this code. I had to update rust to 1.59.0.</br>
+> To check the version type: <br/>
+> ```rustc --version```
 > To update rust execute: <br/>
 > ```rustup update```
 - Install glade (GUI desiner graphical tool)
