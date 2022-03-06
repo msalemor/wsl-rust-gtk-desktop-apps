@@ -110,7 +110,7 @@ fn main() {
 
 ### General Information
 
-Glade is a tool used to generate GTK inferaces. Glade generates XML describing the interface. More informaciton can be found [here](https://glade.gnome.org/).
+Glade is a tool used to generate GTK inferaces. Glade generates XML describing the interface. More informaciton can be found [here](https://glade.gnome.org/). Learning to develop these interfaces is also outside the scope of this guide.
 
 ## Sample GTK app with Glade
 
