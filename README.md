@@ -112,7 +112,28 @@ Glade is a tool used to generate GTK inferaces. Glade generates XML describing t
 
 ## Sample GTK app with Glade
 
-## main.rs
+### cargo.toml
+
+```toml
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = "0.15.4"
+gdk = "0.15.4"
+glib = "0.15.6"
+gio = "0.15.6"
+chrono = "0.4.19"
+futures = "0.3.21"
+log = "0.4.14"
+simple_logger = "2.1.0"
+```
+
+### main.rs
 
 ```rust
 use gtk::prelude::*;
