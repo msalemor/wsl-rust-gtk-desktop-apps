@@ -263,3 +263,7 @@ fn main() {
     background: #005826;
 }
 ```
+
+### Expected output
+
+![Glade app](images/glade_app.png)
