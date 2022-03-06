@@ -1,4 +1,4 @@
-# Development of GUI apps in Windows 11 Ubuntu 20.04 WSL2, Rust and GTK3
+# Development of desktop apps in Windows 11 Ubuntu 20.04 WSL2, Rust and GTK3
 Updated: 2022-03-06 11:00 pm
 
 ## Requirements
@@ -41,7 +41,7 @@ From Terminal open Ubuntu and:
 ### Create a cargo package
 
 ```bash
-cargo new first_gui_app
+cargo new first_desktop_app
 cd gui_app
 ```
 
@@ -49,7 +49,7 @@ cd gui_app
 
 ```toml
 [package]
-name = "first_gui_app"
+name = "first_desktop_app"
 version = "0.1.0"
 edition = "2021"
 
@@ -64,12 +64,12 @@ use gtk::{Application, ApplicationWindow};
 
 fn main() {
     let app = Application::builder()
-        .application_id("org.example.HelloWorld")
+        .application_id("org.example.FirstDesktopApp")
         .build();
 
     app.connect_activate(|app| {
         // We create the main window.
-        let win = ApplicationWindow::builder()
+        let main_window = ApplicationWindow::builder()
             .application(app)
             .default_width(320)
             .default_height(200)
@@ -77,7 +77,7 @@ fn main() {
             .build();
 
         // Don't forget to make all widgets visible.
-        win.show_all();
+        main_window.show_all();
     });
 
     app.run();
