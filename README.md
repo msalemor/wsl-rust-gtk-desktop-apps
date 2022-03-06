@@ -79,7 +79,7 @@ fn main() {
             .title("Hello, World!")
             .build();
 
-        // Don't forget to make all widgets visible.
+        // Show the window.
         main_window.show_all();
     });
 
