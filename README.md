@@ -299,7 +299,7 @@ fn main() {
 
 ### Download the file ```tux.png``` and add it to the ```resources``` folder
 
-![TuxT](https://github.com/gh123man/Rust-GTK-Resources-Example/blob/master/resources/tux.png)
+![TuxT](https://github.com/msalemor/wsl-rust-gtk-desktop-apps/blob/main/glade_app/resources/tux.png)
 
 ### Run the app
 
