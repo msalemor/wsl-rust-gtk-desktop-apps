@@ -297,7 +297,13 @@ fn main() {
 }
 ```
 
-### Download the add the file ```tux.png``` and add it to the ```resources``` folder.
+### Download the file ```tux.png``` and add it to the ```resources``` folder
+
+![TuxT](https://github.com/gh123man/Rust-GTK-Resources-Example/blob/master/resources/tux.png)
+
+### Run the app
+
+- From the VS Code Terminal type: ```cargo run```
 
 ### Expected output
 
