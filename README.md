@@ -20,7 +20,8 @@ In this blog, I am providing specific instructions to setup Windows 11, WSL, Rus
   - https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
  
 > Note: install gedit in WSL2 (```sudo apt install gedit -y```) and <br/>
-> make sure you can open a test file using gedit (i.e. ```gedit ~/.profile```) on the Windoes 11 desktop 
+> make sure you can open a test file using gedit (i.e. ```gedit ~/.profile```) on the Windoes 11 desktop.<br/>
+> This procedure verifies that you are indeed able to run Linux desktop apps.
 
 ![gedit on Windows 11](images/gedit-win11.png)
 
