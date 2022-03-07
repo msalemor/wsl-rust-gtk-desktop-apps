@@ -58,12 +58,13 @@ From Terminal open Ubuntu and:
 ### Create a cargo package and open it in VS Code
 
 ```bash
-cargo new first_desktop_app
-cd gui_app
+# create the new package and move to the new directory
+cargo new first_desktop_app && cd first_desktop_app
+# start VS Code
 code .
 ```
 
-### Edit the ```cargo.toml```
+### Edit the file: ```cargo.toml```
 
 ```toml
 [package]
@@ -75,7 +76,7 @@ edition = "2021"
 gtk = "0.15.4"
 ```
 
-### Edit the ```src/main.rs```
+### Edit the file: ```src/main.rs```
 ```rust
 use gtk::prelude::*;
 use gtk::{Application, ApplicationWindow};
@@ -110,11 +111,20 @@ fn main() {
 
 ### General Information
 
-Glade is a tool used to generate GTK inferaces. Glade generates XML describing the interface. More informaciton can be found [here](https://glade.gnome.org/). Learning to develop these interfaces is also outside the scope of this guide.
+Glade is a tool used to generate GTK inferaces. Glade generates XML describing the interface. More informaciton can be found [here](https://glade.gnome.org/). Learning to create interfaces with Glade outside the scope of this guide.
 
 ## Sample GTK app with Glade
 
-### cargo.toml
+### Create a cargo package and open it in VS Code
+
+```bash
+# create the new package and move to the new directory
+cargo new glade_desktop_app && cd glade_desktop_app
+# start VS Code
+code .
+```
+
+### Edit file: ```cargo.toml```
 
 ```toml
 [package]
@@ -135,7 +145,7 @@ log = "0.4.14"
 simple_logger = "2.1.0"
 ```
 
-### main.rs
+### Edit file: ```src/main.rs```
 
 ```rust
 use gtk::prelude::*;
@@ -202,7 +212,7 @@ fn main() {
     application.run();
 }
 ```
-### main_window.glade
+### Create file: ```resources/main_window.glade```
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -266,7 +276,7 @@ fn main() {
 </interface>
 ```
 
-### resources.xml
+### Create the file: ```resources/resources.xml```
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -279,13 +289,15 @@ fn main() {
 </gresources>
 ```
 
-### Styles
+### Create the file: ```resources/style.css```
 
 ```css
 .greenBg {
     background: #005826;
 }
 ```
+
+### Download the add the file ```tux.png``` and add it to the ```resources``` folder.
 
 ### Expected output
 
