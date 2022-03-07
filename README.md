@@ -59,7 +59,7 @@ From Terminal open Ubuntu and:
 
 ```bash
 # create the new package and move to the new directory
-cargo new first_desktop_app && cd first_desktop_app
+cargo new simple_app && cd simple_app
 # start VS Code
 code .
 ```
@@ -105,7 +105,7 @@ fn main() {
 
 ### Run the app
 
-- From the VS Code Terminal type: ```cargo run```
+- From the VS Code Terminal type: ```cargo build && cargo run```
 
 ## Development with Glade
 
@@ -119,7 +119,7 @@ Glade is a tool used to generate GTK inferaces. Glade generates XML describing t
 
 ```bash
 # create the new package and move to the new directory
-cargo new glade_desktop_app && cd glade_desktop_app
+cargo new glade_app && cd glade_app
 # start VS Code
 code .
 ```
@@ -128,7 +128,7 @@ code .
 
 ```toml
 [package]
-name = "hello_world"
+name = "glade_app"
 version = "0.1.0"
 edition = "2021"
 
@@ -303,7 +303,7 @@ fn main() {
 
 ### Run the app
 
-- From the VS Code Terminal type: ```cargo run```
+- From the VS Code Terminal type: ```cargo build && cargo run```
 
 ### Expected output
 
