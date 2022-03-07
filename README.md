@@ -16,9 +16,9 @@ In this blog, I am providing specific instructions to setup Windows 11, WSL, Rus
 ## Requirements
 
 - Windows 11 Build 22000 or higher
-- Ubuntu 20.04 WSL2 updated to support Linux GUI apps
+- WSL2 updated to support Linux GUI apps running the Ubuntu 20.04 image
   - https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
-
+ 
 > Note: install gedit in WSL2 (```sudo apt install gedit -y```) and <br/>
 > make sure you can open a test file using gedit (i.e. ```gedit ~/.profile```) on the Windoes 11 desktop 
 
