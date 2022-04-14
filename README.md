@@ -60,7 +60,7 @@ From Terminal open Ubuntu and:
 
 ```bash
 # create the new package and move to the new directory
-cargo new simple_app && cd simple_app
+cargo new first_desktop_app && cd first_desktop_app
 # start VS Code
 code .
 ```
