@@ -60,7 +60,7 @@ From Terminal open Ubuntu and:
 
 ```bash
 # create the new package and move to the new directory
-cargo new first_desktop_app && cd first_desktop_app
+cargo new simple_app && cd simple_app
 # start VS Code
 code .
 ```
@@ -69,7 +69,7 @@ code .
 
 ```toml
 [package]
-name = "first_desktop_app"
+name = "simple_app"
 version = "0.1.0"
 edition = "2021"
 
